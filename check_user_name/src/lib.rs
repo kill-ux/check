@@ -7,4 +7,6 @@ impl User {
   pub fn send_name(&self) -> Option<&str> {}
 }
 
-pub fn check_user_name(user: &User) -> (bool, &str) {}
+pub fn check_user_name(user: &User) -> (bool, &str) {
+
+}
