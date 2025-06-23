@@ -4,6 +4,7 @@ pub fn prev_prime(nbr: u64) -> u64 {
         for y in 2..x {
             if x % y == 0 {
                 nice = false;
+                break;
             }
         }
         if nice {
