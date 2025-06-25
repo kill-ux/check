@@ -19,6 +19,7 @@ fn main() {
     );
 }
 
+
 #[cfg(test)]
 mod tests {
     use blood_types_s::*;
